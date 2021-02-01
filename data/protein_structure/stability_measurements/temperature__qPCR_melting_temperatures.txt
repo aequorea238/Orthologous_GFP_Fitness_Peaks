@@ -1,0 +1,49 @@
+Include	Color	Pos	Name	Tm1	Tm2	Status
+True	16744448	A1	blank			
+True	255	A2	amac	91.67		
+True	255	A3	amacV14L	89.71		
+True	255	A4	cgre	85.18		
+True	16744448	A5	pplu			
+True	255	A6	av	94.37		
+True	16744448	B1	blank			
+True	255	B2	amac	91.67		
+True	255	B3	amacV14L	89.49		
+True	255	B4	cgre	85.06		
+True	16744448	B5	pplu			
+True	255	B6	av	94.29		
+True	16744448	C1	blank			
+True	255	C2	amac	91.67		
+True	255	C3	amacV14L	89.10		
+True	255	C4	cgre	84.75		
+True	16744448	C5	pplu			
+True	16744448	C6	av			
+True	16744448	D1	blank			
+True	255	D2	amac	91.64		
+True	255	D3	amacV14L	89.73		
+True	255	D4	cgre	84.92		
+True	16744448	D5	pplu			
+True	16744448	D6	av			
+True	16744448	E1	blank			
+True	255	E2	amac	91.73		
+True	255	E3	amacV14L	89.54		
+True	255	E4	cgre	85.48		
+True	16744448	E5	pplu			
+True	255	E6	av	95.23		
+True	16744448	F1	blank			
+True	255	F2	amac	91.67		
+True	255	F3	amacV14L	89.27		
+True	255	F4	cgre	85.07		
+True	16744448	F5	pplu			
+True	255	F6	av	92.62		
+True	16744448	G1	blank			
+True	255	G2	amac	91.59		
+True	255	G3	amacV14L	89.74		
+True	255	G4	cgre	85.34		
+True	16744448	G5	pplu			
+True	255	G6	av	95.72		
+True	16744448	H1	blank			
+True	255	H2	amac	91.67		
+True	255	H3	amacV14L	89.79		
+True	255	H4	cgre	85.19		
+True	16744448	H5	pplu			
+True	16744448	H6	av			
