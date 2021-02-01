@@ -1,0 +1,50 @@
+alignments
+
+	extant_fluorescent_proteins_data: table of over 70 documented natural fluorescent proteins, including name, species, sequence, original reference and, where possible, accession numbers and measured excitation/emission peaks.
+
+	extant_fluorescent_proteins.fasta: .fasta file of the above fluorescent proteins.
+
+	extant_fluorescent_proteins_TCoffee_aligned.fasta: .fasta file of the above proteins, structurally aligned (T-Coffee Expresso).
+
+--------------------------------------------------
+
+cell_sorting
+
+	fcs_files: folder containing recorded sorting data for all genes, machines A and B.
+
+	xGFP__gate_border_values.txt: table containing the absolute values between gate borders in the green channel during FACS.
+
+--------------------------------------------------
+
+final_datasets
+
+	xGFP__barcodes_to_nucleotide_sequences.zip: .fasta files linking primary (20N) barcodes to their corresponding full gene sequences, extracted from MiSeq data. Only barcodes passing quality control (see Methods: MiSeq data processing) are included.
+
+	amacGFP_cgreGFP_ppluGFP2__final_nucleotide_genotypes_to_brightness.csv and amacGFP_cgreGFP_ppluGFP2__final_aminoacid_genotypes_to_brightness.csv: dataframes linking nucleotide or protein genotypes to their measured fluorescence level (see Methods). Mutations in genotypes are labeled in the format AiB, where A is the original wildtype state, B is the mutated state, and i is the position (counting starts from Methionine = 0). In the nucleotide dataset, 'n_replicates' refers to the combined number of distinct barcodes representing a genotype and machines it was measured on. In the amino acid dataset, 'n_replicates' refers to the number of synonymous nucleotide sequences measured for each protein sequence.
+
+	avGFP__rf_nucleotide_genotypes_to_brightness.csv and avGFP__rf_aminoacid_genotypes_to_brightness.csv: avGFP data from Sarkisyan et al 2016, reformatted to match the same indexing scheme as the new data (initial Methionine = 0).
+
+--------------------------------------------------
+
+protein_structure
+
+	avGFP_amacGFP_cgreGFP_ppluGFP2__ddG_predictions.csv: predictions of delta-delta-G for all proteins and observed single amino acid mutations.
+
+	PBD_structures: folder containing .pdb crystal structures for avGFP, amacGFP, cgreGFP, and ppluGFP2.
+
+	residue_distance_matrices: dataframes containing the minimum physical distance between pairs of residues inside the 3D GFP structures, in Angstroms.
+
+	stability_measurements:
+
+		temperature__qPCR_melting_temperatures.txt: table of melting temperatures calculated from a melting curve (40-98C) for all proteins.
+
+		temperature__qPCR_raw_data.txt: green fluorescence emission signal for all proteins during a melting curve (40-98C).
+
+		urea__absorbance_spectra.txt: table containing absorbance values of all genes in the range of 300 to 700nm, in urea and PBS, at multiple consecutive time points (see Methods: Urea sensitivity assays). Blank control values are already subtracted.
+
+		urea__fluorescence_spectra.txt: table containing fluorescence values of all genes in the range of 450 to 700nm (excitation at 420nm), in urea and PBS, at multiple consecutive time points. Blank control values are already subtracted.
+
+--------------------------------------------------
+
+unfiltered_barcodes_to_brightness
+	xGFP__unfiltered_barcodes_to_brightness_machine_X.csv: dataframes containing the distribution across gates of all primary-secondary barcode combinations, along with their fitted fitness values (see Methods). Data are not filtered according to cell count, number of replicates, etc.
