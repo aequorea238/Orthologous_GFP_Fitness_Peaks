@@ -1,4 +1,4 @@
-aa_genotype_pseudo,gene,aa_genotype_native,ddG_old_protocol
+aa_genotype_pseudo,gene,aa_genotype_native,ddG_prediction
 A113D,avGFP,A109D,11.647
 A113D,cgreGFP,A110D,11.87
 A113G,avGFP,A109G,5.411

@@ -32,7 +32,7 @@ protein_structure
 
 	PBD_structures: folder containing .pdb crystal structures for avGFP, amacGFP, cgreGFP, and ppluGFP2.
 
-	residue_distance_matrices: dataframes containing the minimum physical distance between pairs of residues inside the 3D GFP structures, in Angstroms.
+	residue_distance_matrices: dataframes containing the minimum physical distance between pairs of residues inside the 3D GFP structures, in Angstroms. Row and column indices represent the residue position within the protein, starting from 0 for the initial methionine.
 
 	stability_measurements:
 
