@@ -91,5 +91,5 @@ Table containing fluorescence values of all genes in the range of 450 to 700nm (
 
 ### unfiltered_barcodes_to_brightness
 
-**`x`GFP__unfiltered_barcodes_to_brightness_machine_`X`.csv**
+**`x`GFP__unfiltered_barcodes_to_brightness_machine_`x`.csv**
 Dataframes containing the read distribution across gates of all primary-secondary barcode combinations, along with their fitted fitness values (see Methods). Read counts are normalized (see Methods), but data are not filtered according to cell count, number of replicates, etc.
