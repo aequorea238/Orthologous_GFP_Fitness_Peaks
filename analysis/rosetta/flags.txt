@@ -1,0 +1,17 @@
+-in:file:s avGFP_relaxed.pdb
+-ddg:weight_file soft_rep_design 
+-ddg:iterations 5
+-ddg:dump_pdbs false 
+-database /rosetta/rosetta-3.10/main/database/
+-ddg:local_opt_only false 
+-ddg:min_cst true
+-ddg:suppress_checkpointing true 
+-in:file:fullatom 
+-ddg:mean false 
+-ddg:min true 
+-ddg:sc_min_only false 
+-ddg:ramp_repulsive true 
+-unmute core.optimization.LineMinimizer 
+-ddg:opt_radius 12.0
+-score:fa_max_dis 9.0
+-ignore_zero_occupancy false
